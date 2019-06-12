@@ -4,6 +4,8 @@
 
 <head>
 
+<title> jminju </title>
+
 <style>
 
 * {
@@ -13,17 +15,11 @@
 }
 
 
-
 body {
-
   font-family: Arial;
-
   padding: 10px;
-
   background: #f1f1f1;
-
 }
-
 
 
 /* Header/Blog Title */
@@ -38,16 +34,6 @@ body {
 
 }
 
-
-
-.header h1 {
-
-  font-size: 50px;
-
-}
-
-
-
 /* Style the top navigation bar */
 
 .topnav {
@@ -58,81 +44,18 @@ body {
 
 }
 
-
-
 /* Style the topnav links */
 
 .topnav a {
 
   float: left;
-
   display: block;
-
   color: #f2f2f2;
-
   text-align: center;
 
-  padding: 14px 16px;
-
-  text-decoration: none;
-
+  padding: 15px 15px;
 }
 
-
-
-/* Change color on hover */
-
-.topnav a:hover {
-
-  background-color: #ddd;
-
-  color: black;
-
-}
-
-
-
-/* Create two unequal columns that floats next to each other */
-
-/* Left column */
-
-.leftcolumn {   
-
-  float: left;
-
-  width: 75%;
-
-}
-
-
-
-/* Right column */
-
-.rightcolumn {
-
-  float: left;
-
-  width: 25%;
-
-  background-color: #f1f1f1;
-
-  padding-left: 20px;
-
-}
-
-
-
-/* Fake image */
-
-.fakeimg {
-
-  background-color: #aaa;
-
-  width: 100%;
-
-  padding: 20px;
-
-}
 
 /* Clear floats after the columns */
 
@@ -146,53 +69,36 @@ body {
 
 }
 
-
-
 /* Footer */
 
 .footer {
 
-  padding: 20px;
+  padding: 8px;
 
   text-align: center;
 
-  background: #ddd;
+  background: gray;
 
   margin-top: 20px;
 
 }
 
-
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 800px) {
-
-  .leftcolumn, .rightcolumn {   
-
-    width: 100%;
-
-    padding: 0;
-
-  }
-
+ table, td {
+  border: 2px dashed black;
+  padding: 8px;
+  border-spacing: 5px;
+  background-color: white;
 }
 
-
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 400px) {
-
-  .topnav a {
-
-    float: none;
-
-    width: 100%;
-
-  }
-
+a:link, a:visited {
+  background-color: black;
+  color: skyblue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
 
 </style>
 
@@ -200,13 +106,11 @@ body {
 
 <body>
 
-
-
 <div class="header">
 
-  <h1>길동이의 홈페이지</h1>
+  <h1>4차 산업 혁명</h1>
 
-  <p>Resize the browser window to see the effect.</p>
+  <p>Welcome to this homepage.</p>
 
 </div>
 
@@ -214,13 +118,11 @@ body {
 
 <div class="topnav">
 
-  <a href="http://www.chungwoon.ac.kr">청운대학교</a>
+ <a href="http://www.goolge.com">구글</a>
 
-  <a href="http://www.goolge.com">구글</a>
+ <a href="https://www.naver.com/">네이버</a>
 
-  <a href="#">Link</a>
-
-  <a href="#" style="float:right">Link</a>
+ <a href="https://www.daum.net/">다음</a>
 
 </div>
 
@@ -232,16 +134,50 @@ body {
 
     <div class="card">
 
-      <h2>TITLE HEADING</h2>
+      <h3>4차 산업 혁명이란?</h3>
 
-      <h5>Title description, Dec 7, 2017</h5>
+      <p>인공지능, 로봇기술, 생명과학이 주도하는 차세대 산업혁명을 말한다.</p>
 
-      <div class="fakeimg" style="height:200px;">Image</div>
+       <h3>산업 혁명의 발달</h3>
+    
+      <p>▷1784년 영국에서 시작된 증기기관과 기계화로 대표되는 1차 산업혁명 </br>
+      ▷1870년 전기를 이용한 대량생산이 본격화된 2차 산업혁명 </br>
+      ▷1969년 인터넷이 이끈 컴퓨터 정보화 및 자동화 생산시스템이 주도한 3차 산업혁명에 이어 </br>
+      ▷로봇이나 인공지능(AI)을 통해 실제와 가상이 통합돼 사물을 자동적, 지능적으로 제어할 수 있는 가상 물리 시스템의 구축이 기대되는 산업상의 변화를 일컫는다.</p>
 
-      <p>Some text..</p>
+      <img src="4차산업혁명발달.jpg" alt="4차 산업 혁명 발달">
 
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+<hr>
+    
+<table style="width:100%">
+  <caption style="font-size:200%">4차 산업 혁명 기술</caption>
+  <tr>
+    <td>인공지능</td>
+    <td>인간의 지능으로 할 수 있는 사고, 학습, 자기 개발 등을 컴퓨터가 할 수 있도록 하는 방법을 연구하는 컴퓨터 공학 및 정보기술의 한 분야로서, 컴퓨터가 인간의 지능적인 행동을 모방할 수 있도록 하는 것을 인공지능이라고 말하고 있다.</td> 
+  </tr>
+  <tr>
+    <td>빅데이터</td>
+    <td>빅데이터란 디지털 환경에서 생성되는 데이터로 그 규모가 방대하고, 생성 주기도 짧고, 형태도 수치 데이터뿐 아니라 문자와 영상 데이터를 포함하는 대규모 데이터를 말한다. 빅데이터 환경은 과거에 비해 데이터의 양이 폭증했다는 점과 함께 데이터의 종류도 다양해져 사람들의 행동은 물론 위치정보와 SNS를 통해 생각과 의견까지 분석하고 예측할 수 있다.</td>
+  </tr>
+  <tr>
+    <td> 사물 인터넷</td>
+    <td>사물인터넷(Internet of Things)은 세상에 존재하는 유형 혹은 무형의 객체들이 다양한 방식으로 서로 연결되어 개별 객체들이 제공하지 못했던 새로운 서비스를 제공하는 것을 말한다. 사물인터넷(Internet of Things)은 단어의 뜻 그대로 ‘사물들(things)’이 ‘서로 연결된(Internet)’ 것 혹은 ‘사물들로 구성된 인터넷’을 말한다. 기존의 인터넷이 컴퓨터나 무선 인터넷이 가능했던 휴대전화들이 서로 연결되어 구성되었던 것과는 달리, 사물인터넷은 책상, 자동차, 가방, 나무, 애완견 등 세상에 존재하는 모든 사물이 연결되어 구성된 인터넷이라 할 수 있다.</td>
+  </tr>
+  <tr>
+    <td> 클라우드 컴퓨팅</td>
+    <td>인터넷 상의 서버를 통하여 데이터 저장, 네트워크, 콘텐츠 사용 등 IT 관련 서비스를 한번에 사용할 수 있는 컴퓨팅 환경이다.</td>
+  </tr>
+</table>
 
+<hr> 
+
+     <h3> 4차 산업혁명 기술의 사례</h3>
+     <a href="드론.jpg" target="_blank">드론</a>
+     <a href="키오스크.jpg" target="_blank">키오스크</a>
+     <a href="스마트홈.jpg" target="_blank">스마트홈</a>
+     <a href="로봇.jpg" target="_blank">로봇</a>
+      <a href="3D프린터.jpg" target="_blank">3D 프린터</a>
+    
     </div>
   </div>
 </div>
